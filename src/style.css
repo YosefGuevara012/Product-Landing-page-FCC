@@ -1,0 +1,80 @@
+header{
+  width:100%;
+  height:100px;
+  background:red;
+}
+
+#email{
+  width:100%;
+  height:515px;
+  background:blue;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+
+.emailder{
+  background:#339fff;
+
+}
+.emailderdata{
+  width:80%;
+  height:80%;
+  background:#8733ff;
+  margin:5% 10% 5%;
+
+}
+.emailizq{
+  background:#33fcff;
+}
+
+#products{
+  width:100%;
+  height:515px;
+  background:green;
+
+}
+
+#todos{
+  width:80%;
+  height:515px;
+  background:#c1ff33;
+  margin: 0% 10% 0%;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.todos1{
+  background:#33ffa8;
+}
+.todos2{
+  background:#33ff58;
+}
+.todos3{
+  background:#49ff33;
+}
+.todos4{
+  background:#80ff33;
+}
+
+#info{
+  width:100%;
+  height:515px;
+  background:orange;
+
+}
+
+#experiencia{
+  width:50%;
+  height:515px;
+  background:#ffd733;
+  margin: 0% 25% 0%;
+}
+
+footer{
+  width:100%;
+  height:100px;
+  background:purple;
+  text-align:center;
+  
+}
