@@ -1,43 +1,20 @@
 
-/*Navbar Code*/
-ul {
-  width: 99.3%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-
-}
-
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-/*Navbar Code*/
-#email{
-  width:100%;
-  height:800px;
+#grid-container{
+  margin:0 auto;
   display:grid;
-  grid-template-columns: 50% 50%;
-  padding-top:100px;
+  grid-template-columns:auto;
+  grid-template-rows:70px 1000px 515px 515px 70px;
+  grid-template-areas:"hd" "hm" "pds" "inf" "ft";
+}
+
+header{
+  grid-area:hd;
+  backgorund:red;
+  
+}
+
+#home{
+  grid-area:hm;
   background-image:url('https://i.imgur.com/tnKlDYQ.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -45,74 +22,19 @@ li a:hover:not(.active) {
 
 }
 
-.emailder{
-
-
-}
-.emailderdata{
-  width:80%;
-  height:80%;
-  margin:5% 10% 5%;
-  color: white;
-  text-align:center;
-}
-.video-arduino{
-  width:80%;
-  height:80%;
-  margin:5% 10% 5%;
-  color: white;
-  text-align:center;
-}
-.emailizq{
-
-}
-
 #products{
-  width:100%;
-  height:515px;
+  grid-area:pds;
   background:green;
-
 }
-
-#todos{
-  width:80%;
-  height:515px;
-  background:#c1ff33;
-  margin: 0% 10% 0%;
-  display:grid;
-  grid-template-columns: 25% 25% 25% 25%;
-}
-
-.todos1{
-  background:#33ffa8;
-}
-.todos2{
-  background:#33ff58;
-}
-.todos3{
-  background:#49ff33;
-}
-.todos4{
-  background:#80ff33;
-}
-
 #info{
-  width:100%;
-  height:515px;
+  grid-area:inf;
   background:orange;
+  margin: 0 auto;
 
-}
-
-#experiencia{
-  width:50%;
-  height:515px;
-  background:#ffd733;
-  margin: 0% 25% 0%;
 }
 
 footer{
   width:100%;
-  height:100px;
   background:purple;
   text-align:center;
   
