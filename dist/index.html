@@ -7,22 +7,34 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<section id="grid-container">
-  <header id="header"></header>
+><section id="grid-container">
+  <header id="header">
+    <div id="logo"></div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#products">Products</a></li>
+        <li><a class="nav-link" href="#info">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
   <div id="home">
-    <div id="homeinfo"></div>
-    <div id="video"></div>
-</div>
-  <div id="products"></div>
-  <div id="info">
-  <div id="caracteristicas">
-    <div class="malla">
-      <div class="icono"></div>
-      <div class="descripcion"></div>
+    <div id="flexhome">
+       <h2> Los sistemas embebidos soportan al mundo <h2>
+       <form>
+       <input placeholder="Ingerese su correo electrónico" required/><br><br>
+       <input value="enviar"/>  
+       </form>
     </div>
-
+    <div>
+       <iframe width="800px" height="600px" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe> 
+    </div>
   </div>
-</div>
+  <div id="products">
+  </div>
+  <div id="info"></div>
   <footer></footer>
 </section>
 <!-- partial -->
