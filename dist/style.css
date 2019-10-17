@@ -115,13 +115,13 @@
   height:100%;
 }
 
-.text-size{
+#email{
   width: 180px;
   padding: 5px;
   border: 1px solid #c0c0c0;
   border-radius: 2px;
 }
-.btn{
+#submit{
   width: 100px;
   height:30px;
   margin:0px 25%;
