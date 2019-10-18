@@ -1,6 +1,7 @@
+
 #main{
   width:100%;
-  height:1600px;
+  height:1350px;
   background-color:#cabade;
   font-family:sans-serif;
 }
@@ -222,11 +223,18 @@
 /* features content*/
 #features{
   width:100%;
-  height:500px;
-  background-color:yellow;
+  height:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   
 }
+#f-content{
+  width:80%;
+  height:80%;  
+}
 
+/* footer */
 footer{
   border:1px solid #450097;
   height: 50px;
